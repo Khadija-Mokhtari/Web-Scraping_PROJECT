@@ -25,12 +25,11 @@ Les **véhicules électriques** bénéficient d’office d’une vignette 0, q
 Test du scraping avec Selenium en simulant les actions a effectué sur le site. Cependant, les sites détectent les mouvements du robot et bloquent ainsi toutes actions, même avec l’ajout de headers ou le changement d’adresse ip. 
 
 
-*IP récupérés sur free proxy list*  
 
 Nos requêtes étaient également détectées avec requests. Cependant, l’ajout de headers (notamment la modification du user-agent) a permis de d’effectuer les requêtes avec succès.
 
 - **API**
 
-L’interface sera crée grâce à la bibliothèque Tkinter de Python.
+L’interface sera crée grâce à la bibliothèque Tkinter de Python et améliorer avec Streamlit. 
 
 
